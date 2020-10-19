@@ -1,4 +1,4 @@
-print("Title of program: Post Exam bot")
+print("Title of program: Post Exam bot")#isn't this supposed to be an encouragement bot?
 print()
 while True:
   description = input("Could you describe how you feel in a sentence?")
@@ -27,6 +27,7 @@ while True:
       feelings_list.append("stuck")
       encouragement_list.append("try better next time")
       counter += 1
+      #try adding more values
 
   if counter == 0:
     
